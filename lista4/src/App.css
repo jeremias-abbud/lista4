@@ -1,0 +1,99 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.actions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
+  width: 50vw;
+}
+
+.actions-container label{
+  font-weight: bolder;
+  margin-bottom: 10px ;
+}
+
+.actions-container input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px 3px;
+  border-radius: 3px;
+  border: none;
+  background-color: #9b9696;
+  color: aliceblue;
+  text-align: center;
+}
+
+.actions-container input::placeholder {
+  color: aliceblue;
+  text-align: center;
+}
+
+.actions-container button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0c0c0c;
+  color: aliceblue;
+  cursor: pointer;
+  opacity: .8;
+}
+
+.actions-container button:hover {
+  opacity: 1;
+  scale: 1.08;
+}
+
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tasks-container ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.tasks-container ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 15px;
+  font-size: 1.2rem;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.btn-container button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0c0c0c;
+  color: aliceblue;
+  cursor: pointer;
+  opacity: .8;
+}
+
+.btn-container button:hover{
+  opacity: 1;
+  scale: 1.03;
+}
